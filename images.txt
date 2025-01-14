@@ -1,6 +1,14 @@
-nginx
-redis
-mysql
+redis:7-alpine
+mysql-server:8.0
+mysql:8.0
+nacos-server:2.0.3
+rabbitmq:3.10-management
+seata-server:1.6.0
+nginx:1.23-alpine
+sentinel-dashboard:1.8.3
+kibana:7.17.0
+elasticsearch:7.17.0
+logstash:7.17.0
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
