@@ -1,5 +1,4 @@
 redis:7-alpine
-mysql-server:8.0
 mysql:8.0
 nacos-server:2.0.3
 rabbitmq:3.10-management
